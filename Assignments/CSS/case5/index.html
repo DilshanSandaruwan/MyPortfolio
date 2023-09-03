@@ -3,8 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="assests/css/necolas.github.io_normalize.css_8.0.1_normalize.css">
+
+    <style>
+        section{
+            height: 97vh;
+            border: black solid 1px;
+        }
+        body>section>section{
+            position: absolute;
+            height: 99.6%;
+            width: calc(99.6%/4);
+            border: 1px solid black;
+            top: 0;
+        }
+        body>section>section:nth-child(2){
+            left: 25%;
+        }
+        body>section>section:nth-child(3){
+            left: 50%;
+        }
+        body>section>section:nth-child(4){
+            left: 75%;
+        }
+        body>section>section>div{
+            width: 99.6%;
+            height: calc(99.6%/3);
+            border: 1px solid black;
+        }
+        body>section>section:nth-child(1)>div:first-child{
+            background-color: red;
+        }
+        body>section>section:nth-child(1)>div:nth-child(2){
+            background-color: deeppink;
+        }
+        body>section>section:nth-child(1)>div:last-child{
+            background-color: purple;
+        }
+        body>section>section:nth-child(2)>div:first-child{
+            background-color: green;
+        }
+        body>section>section:nth-child(2)>div:nth-child(2){
+            background-color: blue;
+        }
+        body>section>section:nth-child(2)>div:last-child{
+            background-color: yellow;
+        }
+        body>section>section:nth-child(3)>div:first-child{
+            background-color: orangered;
+        }
+        body>section>section:nth-child(3)>div:nth-child(2){
+            background-color: saddlebrown;
+        }
+        body>section>section:nth-child(3)>div:last-child{
+            background-color: cornflowerblue;
+        }
+        body>section>section:nth-child(4)>div:first-child{
+            background-color: deeppink;
+        }
+        body>section>section:nth-child(4)>div:nth-child(2){
+            background-color: hotpink;
+        }
+        body>section>section:nth-child(4)>div:last-child{
+            background-color: deepskyblue;
+        }
+    </style>
 </head>
 <body>
+<section>
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+</section>
 
 </body>
 </html>
