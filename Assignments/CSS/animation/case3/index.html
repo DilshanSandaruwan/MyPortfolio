@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CaseFive</title>
+    <link href="assets/css/normalize.css" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        body > section {
+            animation: slider 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-direction: alternate;
+            animation-delay: 2s;
+            position: relative;
+            left: 0;
+            top: 0;
+            height: 100vh;
+            width: max-content;
+            display: flex;
+        }
+
+        body > section > section > img {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+        }
+
+        @keyframes slider {
+            0% {
+
+                left: 0;
+            }
+            25% {
+                left: -100vw;
+            }
+            50% {
+                left: -200vw;
+            }
+            75% {
+                left: -300vw;
+            }
+            100% {
+                left: -399vw;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+<section>
+    <section><img src="assets/image/1.jpg"></section>
+    <section><img src="assets/image/2.jpg"></section>
+    <section><img src="assets/image/3.jpg"></section>
+    <section><img src="assets/image/4.jpg"></section>
+    <section><img src="assets/image/5.png"></section>
+</section>
+</body>
+</html>
