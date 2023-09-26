@@ -2,7 +2,13 @@ body{
     position: relative;
 }
 
-#section01,#section02,#section03,#section05,#section06,#section07{
+#section01,#section02,#section05,#section06,#section07{
+    position: relative;
+    right: 0;
+    left: 0;
+    height: 100vh;
+}
+#section03{
     position: relative;
     right: 0;
     left: 0;
@@ -82,14 +88,6 @@ footer>nav>div{
 }
 
 
-body>section:nth-child(5){
-    background-color: #0C1154;
-}
-body>section:nth-child(5)>div{
-    display: inline;
-    padding-left: 13px;
-    top: 20px ;
-}
 body>section{
     background-color: #D9D9D9;
 }
@@ -119,6 +117,10 @@ body>section:nth-child(3)>section:nth-child(2)>h1{
 body>section:nth-child(3)>section:nth-child(2)>p{
     display: inline-block;
 }
+body>section:nth-child(3)>img:nth-child(3){
+    position: relative;
+    right: -12vw;
+}
 
 body>section:nth-child(4)>div{
     display: flex;
@@ -129,45 +131,61 @@ body>section:nth-child(4)>div{
     border-radius: 20px;
 }
 
-body>section:nth-child(4)>div:nth-child(2){
+body>section:nth-child(4)>div:nth-child(3){
     justify-content: right;
     margin-right: 50px;
 
 }
-body>section:nth-child(4)>div:nth-child(3){
+body>section:nth-child(4)>div:nth-child(4){
     justify-content: center;
     margin-top: 50px;
 
 }
-body>section:nth-child(4)>div:nth-child(4){
+body>section:nth-child(4)>div:nth-child(5){
     position: relative;
     top: 50px;
     margin-left: 60px;
     justify-content: start;
 
 }
-body>section:nth-child(4)>div:nth-child(2)>img{
-    border-radius: 20px;
-
-}
 body>section:nth-child(4)>div:nth-child(3)>img{
     border-radius: 20px;
-    margin-right: 40px;
+
 }
 body>section:nth-child(4)>div:nth-child(4)>img{
     border-radius: 20px;
     margin-right: 40px;
 }
-body>section:nth-child(4)>img:nth-child(1){
+body>section:nth-child(4)>div:nth-child(5)>img{
+    border-radius: 20px;
+    margin-right: 40px;
+}
+body>section:nth-child(4)>img:nth-child(2){
     margin-bottom: 5vw;
     padding-left: 42vw;
 }
-
-
+body>section:nth-child(4)>img:nth-child(1){
+    position: absolute;
+    width: 15vw;
+}
+body>section:nth-child(4)>img:nth-child(6){
+    width: 10vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 
 
 body>section:nth-child(5){
     position: relative;
+}
+body>section:nth-child(5){
+    background-color: #0C1154;
+}
+body>section:nth-child(5)>div{
+    display: inline;
+    padding-left: 13px;
+    top: 20px ;
 }
 body>section:nth-child(5)>img:nth-child(1){
     position: relative;
@@ -182,15 +200,19 @@ body>section:nth-child(5)>section:nth-child(2){
     padding-top: 10vh;
 }
 
-body>section:nth-child(7)>section:nth-child(2)>div{
-    display: inline;
+body>section:nth-child(6)>section:nth-child(1){
     position: relative;
-    padding-left: 20px;
-    padding-top: 20px;
+    right: 0;
+    left: 0;
+    height: 100vh;
 }
-body>section:nth-child(7)>img:nth-child(1){
-    position: relative;
-    left: 30vw;
+body>section:nth-child(6)>section:nth-child(1)>img{
+    display: flex;
+}
+
+body>section:nth-child(6)>section:nth-child(1)>img:nth-child(1),img:nth-child(2),img:nth-child(3){
+    flex-direction: column;
+
 }
 body>section:nth-child(6)>div{
     display: inline-flex;
@@ -202,4 +224,44 @@ body>section:nth-child(6)>div:nth-child(3){
     position: relative;
     bottom: 20vh;
     padding-left: 20px;
+}
+body>section:nth-child(7)>section:nth-child(2)>div{
+    display: inline;
+    position: relative;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+body>section:nth-child(7)>img:nth-child(1){
+    position: relative;
+    left: 30vw;
+}
+body>section:nth-child(8)>section:nth-child(3){
+
+}
+body>section:nth-child(8)>section:nth-child(2){
+    background-color: #F3F1EC;
+    display: inline-block;
+}
+
+
+body>section:nth-child(8)>section:nth-child(3)>form{
+    position: relative;
+    width: 70vw;
+    height: 68vh;
+    border-radius: 5%;
+}
+body>section:nth-child(8)>section:nth-child(3){
+    background-color: #F3F1EC;
+    display: inline-block;
+    border-radius: 5%;
+    position: relative;
+    width: 72vw;
+    height: 85vh;
+    bottom: 25vh;
+    left: 10px;
+}
+body>section:nth-child(8)>section:nth-child(2){
+    width: 25vw;
+    height: 85vh;
+    border-radius: 10%;
 }
