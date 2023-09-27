@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="assets/necolas.github.io_normalize.css_8.0.1_normalize.css">
 
     <style>
+        #nav01{
+            margin-left: 30vw;
+        }
         .txtfeaild{
             position: relative;
             left: 3vw;
@@ -78,15 +81,76 @@
             left: 0;
             height: 100vh;
         }
-        /*body>section:nth-child(6)>section:nth-child(1)>img{*/
-        /*    display: flex;*/
-        /*}*/
 
-        /*body>section:nth-child(6)>section:nth-child(1)>img:nth-child(1),img:nth-child(2),img:nth-child(3){*/
-        /*    flex-direction: column;*/
 
-        /*}*/
+        footer>nav>ul>li {
+            display: inline;
+            margin-right: 20px;
+        }
+        footer>nav>ul>li>a{
+            text-decoration: none;
+            color: whitesmoke;
+        }
+        footer>nav:nth-child(2)>ul{
+            position: absolute;
+            bottom: 5px;
+            right: 40vw;
 
+        }
+        footer{
+            background-color: #14213D;
+            position: relative;
+            left: 0;
+            right: 0;
+            height: 20vw;
+        }
+        footer>div:nth-child(4)>small{
+            position: absolute;
+            bottom: 0;
+            left: 30vw;
+            color: whitesmoke;
+        }
+        .vector{
+            height: 20vh;
+        }
+        footer>div:nth-child(2){
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+        footer>div:nth-child(6){
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        #nav01{
+            position: absolute;
+            top: 6vw;
+            right: 0;
+            left: 0;
+            bottom: 0;
+        }
+        #nav02{
+            position: absolute;
+            left: 28vw;
+            bottom: 2vw;
+        }
+        footer>div:nth-child(5){
+            position: absolute;
+            bottom: 0;
+            left: 30vw;
+            color: whitesmoke;
+        }
+        footer>h2:nth-child(1){
+            color: whitesmoke;
+            font-family:Mandali;
+            font-size: 2vw;
+            font-weight: bold;
+            position: absolute;
+            display: inline-block;
+            top: 0;
+            left: 40vw;
+        }
     </style>
 
 </head>
@@ -364,12 +428,31 @@
             </section>
 
     <footer>
-        <nav>
-                <div> <img src="assets/images/Instagram.png"></div>
+        <h2>Portfolio</h2>
+        <div><img src="assets/images/Vector%20up.png" class="vector"></div>
+
+        <nav id="nav01">
                 <div> <img src="assets/images/Instagram%20(1).png"></div>
+                <div> <img src="assets/images/linkdin.png"></div>
                 <div><img src="assets/images/Twitter.png"></div>
                 <div><img src="assets/images/GitHub.png"></div>
         </nav>
+        <nav id="nav02">
+            <ul>
+                <li><i class="fa-solid fa-house"></i> <a href="#"> Home</a> </li>
+                <li><i class="fa-brands fa-servicestack"></i> <a href="#"> About </a></li>
+                <li><i class="fa-solid fa-address-book"></i> <a href="#"> Education </a></li>
+                <li><i class="fa-solid fa-circle-info"></i> <a href="#"> Gallery </a></li>
+                <li><i class="fa-solid fa-circle-info"></i> <a href="#"> Projects</a></li>
+                <li><i class="fa-solid fa-circle-info"></i> <a href="#"> Contact </a></li>
+            </ul>
+        </nav>
+        <div>
+            <small>copyright myportfolio.All Rights Reserved.
+                Designed by Dilshan sandaruwan</small>
+        </div>
+        <div><img src="assets/images/Vectordown.png" class="vector"></div>
+
     </footer>
 
 <map name="myMap01">
