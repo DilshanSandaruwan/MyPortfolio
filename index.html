@@ -16,10 +16,37 @@
 
     <style>
         .txtfeaild{
+            position: relative;
+            left: 3vw;
             width: 50vw;
             height: 70px;
+            border-radius: 20px;
         }
-
+        #textArea{
+            position: relative;
+            left: 3vw;
+            border-radius: 20px;
+            width:50vw ;
+            height: 150px;
+        }
+        #btnSubmit{
+            position: relative;
+            left: 3vw;
+            width: 10vw;
+            height: 10vh;
+            border-radius: 20px;
+        }
+        body>section:nth-child(8)>section:nth-child(2)>div{
+            position: relative;
+            left: 3vw;
+        }
+        body>section:nth-child(8)>section:nth-child(2)>h2:nth-child(1){
+            position: relative;
+            left: 3vw;
+        }
+        body>section:nth-child(8)>section:nth-child(3)>form>h2{
+           margin-left: 20vw;
+        }
         body>section:nth-child(6)>section:nth-child(2)>img:nth-child(1){
             width: 20vw;
         }
@@ -286,7 +313,7 @@
                 </div>
 
                 <div>
-                    <img src="assets/images/Web_Development%20(1).png">
+                    <img usemap="#myMap01" src="assets/images/Web_Development%20(1).png">
                 </div>
             </section>
         </section>
@@ -326,10 +353,10 @@
                         <input name="email" type="email" placeholder="Your Email" required class="txtfeaild">
                         <br>
                         <br>
-                        <textarea rows="6"  name="Massage" placeholder="Massage" class="txtfeaild"></textarea>
+                        <textarea rows="6"  name="Massage" placeholder="Massage" id="textArea"></textarea>
                         <br>
                         <br>
-                        <button  type="submit" formaction="save_customer" >Submit</button>
+                        <button  type="submit" formaction="save_customer" id="btnSubmit">Submit</button>
 
                 </form>
             </section>
@@ -345,6 +372,9 @@
         </nav>
     </footer>
 
+<map name="myMap01">
+    <area shape="rect" coords="0,0,1280,586" href="Assingment.html" alt="Assingment">
+</map>
 
 </body>
 </html>
