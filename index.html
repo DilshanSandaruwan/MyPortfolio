@@ -13,144 +13,19 @@
     <meta name ="robots" content="index,follow">
     <link rel="stylesheet" href="css/myPortfolio.css">
     <link rel="stylesheet" href="assets/necolas.github.io_normalize.css_8.0.1_normalize.css">
-
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <style>
-        #nav01{
-            margin-left: 30vw;
+        *{
+            scroll-behavior: smooth;
         }
-        .txtfeaild{
-            position: relative;
-            left: 3vw;
-            width: 50vw;
-            height: 70px;
-            border-radius: 20px;
-        }
-        #textArea{
-            position: relative;
-            left: 3vw;
-            border-radius: 20px;
-            width:50vw ;
-            height: 150px;
-        }
-        #btnSubmit{
-            position: relative;
-            left: 3vw;
-            width: 10vw;
-            height: 10vh;
-            border-radius: 20px;
-        }
-        body>section:nth-child(8)>section:nth-child(2)>div{
-            position: relative;
-            left: 3vw;
-        }
-        body>section:nth-child(8)>section:nth-child(2)>h2:nth-child(1){
-            position: relative;
-            left: 3vw;
-        }
-        body>section:nth-child(8)>section:nth-child(3)>form>h2{
-           margin-left: 20vw;
-        }
-        body>section:nth-child(6)>section:nth-child(2)>img:nth-child(1){
-            width: 20vw;
-        }
-        body>section:nth-child(6)>section:nth-child(2)>img:nth-child(2){
-            height: 40vh;
-        }
-        body>section:nth-child(6)>section:nth-child(2)>img:nth-child(3){
-            width: 20vw;
-        }
-        body>section:nth-child(6)>section:nth-child(2)>img:nth-child(4){
-            width: 20vw;
-        }
-        body>section:nth-child(6)>section:nth-child(2)>img:nth-child(5){
-            margin-bottom: 50px;
-            width: 30vw;
-        }
-        body>section:nth-child(6)>section:nth-child(2)>img:nth-child(6){
-            width: 20vw;
-        }
-        body>section:nth-child(6)>section:nth-child(2)>img:nth-child(7){
-            margin-bottom: 50px;
-            width: 30vw;
-            border-radius: 20px;
+        ::-webkit-scrollbar {
+            width: 0.7vw;
+            background-color: #505253;
         }
 
-        body>section:nth-child(6)>section:nth-child(1){
-            position: relative;
-            right: 0;
-            left: 0;
-            height: 100vh;
-        }
-
-
-        footer>nav>ul>li {
-            display: inline;
-            margin-right: 20px;
-        }
-        footer>nav>ul>li>a{
-            text-decoration: none;
-            color: whitesmoke;
-        }
-        footer>nav:nth-child(2)>ul{
-            position: absolute;
-            bottom: 5px;
-            right: 40vw;
-
-        }
-        footer{
-            background-color: #14213D;
-            position: relative;
-            left: 0;
-            right: 0;
-            height: 20vw;
-        }
-        footer>div:nth-child(4)>small{
-            position: absolute;
-            bottom: 0;
-            left: 30vw;
-            color: whitesmoke;
-        }
-        .vector{
-            height: 20vh;
-        }
-        footer>div:nth-child(2){
-            position: absolute;
-            bottom: 0;
-            right: 0;
-        }
-        footer>div:nth-child(6){
-            position: absolute;
-            top: 0;
-            left: 0;
-        }
-        #nav01{
-            position: absolute;
-            top: 6vw;
-            right: 0;
-            left: 0;
-            bottom: 0;
-        }
-        #nav02{
-            position: absolute;
-            left: 28vw;
-            bottom: 2vw;
-        }
-        footer>div:nth-child(5){
-            position: absolute;
-            bottom: 0;
-            left: 30vw;
-            color: whitesmoke;
-        }
-        footer>h2:nth-child(1){
-            color: whitesmoke;
-            font-family:Mandali;
-            font-size: 2vw;
-            font-weight: bold;
-            position: absolute;
-            display: inline-block;
-            top: 0;
-            left: 40vw;
-        }
     </style>
 
 </head>
@@ -170,7 +45,7 @@
     </header>
      <section id="section01">
             <section>
-                <h1>
+                <h1 class="animate__animated animate__bounceInDown">
 
                     Hi I'M Dilshan Sandaruwan
                     <br>
@@ -179,17 +54,14 @@
 
                 <h2 >Find Me</h2>
                 <div>
-                    <!--            <div><a href="https://www.instagram.com/sadaruwan9855/">Instagram</a></div>-->
-                    <!--            <div><a href="https://www.linkedin.com/in/dilshan-sandaruwan-16013027b/">linkedin</a></div>-->
-                    <!--            <div><a href="https://www.youtube.com/">youtube</a></div>-->
-                    <!--            <div><a href="https://github.com/DilshanSandaruwan">github</a></div>-->
-                    <img src="assets/images/inster.png">
 
-                    <img src="assets/images/linkedin.png">
+                    <img usemap="#instegrame" src="assets/images/inster.png">
 
-                    <img src="assets/images/free-youtube-logo-icon-2431-thumb%201.png">
+                    <img usemap="#linkedin" src="assets/images/linkedin.png">
 
-                    <img src="assets/images/github.png">
+                    <img usemap="#youtube" src="assets/images/free-youtube-logo-icon-2431-thumb%201.png">
+
+                    <img usemap="#github" src="assets/images/github.png">
                 </div>
 
                 <img src="assets/images/Vector.png">
@@ -369,11 +241,11 @@
             <img src="assets/images/meetMy_Project.png">
             <section>
                 <div>
-                    <img src="assets/images/application_Development.png">
+                    <img usemap="#myMap03" src="assets/images/application_Development.png">
                 </div>
 
                 <div>
-                    <img src="assets/images/UI_Desing.png">
+                    <img usemap="#myMap02" src="assets/images/UI_Desing.png">
                 </div>
 
                 <div>
@@ -459,6 +331,29 @@
     <area shape="rect" coords="0,0,1280,586" href="Assingment.html" alt="Assingment">
 </map>
 
+<map name="myMap02">
+    <area shape="rect" coords="0,0,1280,586" href="https://www.figma.com/files/recents-and-sharing/recently-viewed?fuid=1201537865620852213" alt="Figma">
+</map>
+
+<map name="myMap03">
+     <area shape="rect" coords="0,0,1280,586" href="https://github.com/DilshanSandaruwan?tab=repositories" alt="Github">
+</map>
+
+<map name="instegrame">
+    <area shape="rect" coords="0,0,1280,586" href="https://www.instagram.com/sadaruwan9855/" alt="insta">
+</map>
+
+<map name="linkedin">
+    <area shape="rect" coords="0,0,1280,586" href="https://www.linkedin.com/in/dilshan-sandaruwan-16013027b/" alt="linkedin">
+</map>
+
+<map name="youtube">
+        <area shape="rect" coords="0,0,1280,586" href="https://www.youtube.com/channel/UCUs3wtBD0RNyUQDx0fxGkXg" alt="youtube">
+</map>
+
+<map name="github">
+    <area shape="rect" coords="0,0,1280,586" href="https://github.com/DilshanSandaruwan?tab=repositories">
+</map>
 </body>
 </html>
 
