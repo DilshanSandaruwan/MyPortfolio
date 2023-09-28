@@ -37,12 +37,19 @@ header>img{
     transition-duration: 2s;
     transition-property: all;
 }
-
+header>nav>ul>li>a{
+    width: 2vw;
+}
+header>nav>ul>li>a:hover {
+    width: 3vw;
+    filter: drop-shadow(0 0 1vw black);
+}
 header>nav>ul>li {
     display: inline;
     margin-right: 20px;
 }
 header>nav>ul>li>a{
+    width: 2vw;
     text-decoration: none;
     color: #0C1154;
 }
