@@ -91,6 +91,13 @@ body>section:nth-child(2)>section:nth-child(1)>div:nth-child(3){
     margin-top: 2vw;
     margin-left: -20vw;
 }
+body>section:nth-child(2)>section:nth-child(1)>div:nth-child(3)>img{
+    width: 4vw;
+}
+
+body>section:nth-child(2)>section:nth-child(1)>div:nth-child(3)>img:nth-child(3){
+    width: 3vw;
+}
 footer>nav>div{
     display: inline;
     margin-right: 20px;
@@ -385,4 +392,12 @@ footer>h2:nth-child(1){
     display: inline-block;
     top: 0;
     left: 40vw;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 0.7vw;
+    background-color: #505253;
 }
