@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DashBoard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" rel="stylesheet">
+    <style>
+        ul > li {
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+<body>
+<header class="jumbotron bg-warning text-white p-3">
+    <h1 class="position-absolute " id="nav">POS System</h1>
+    <ul class="list-group list-group-horizontal text-danger justify-content-end font-weight-bold">
+        <li class="list-group-item bg-danger" id="lnkHome"><a class="text-white" href="Home.html">Home</a></li>
+        <li class="list-group-item bg-white" id="lnkCustomer"><a href="pages/Customer.html">Customer</a>
+        </li>
+        <li class="list-group-item bg-white" id="lnkItem"><a href="pages/Item.html">Item</a></li>
+        <li class="list-group-item bg-white" id="lnkOrders"><a href="pages/Oder.html">Orders</a></li>
+        <li class="list-group-item bg-white" id="lnkPlaceOrders"><a href="pages/purchase-order.html">Place Order</a></li>
+    </ul>
+</header>
+
+<main class="container-fluid " id="dashboardContent">
+    <div class="jumbotron pt-md-5">
+        <div id="home-tiles">
+            <div class="row ">
+
+                <div class="col-lg-6 col-xl-4 mb-2">
+                    <div class="card">
+                        <div class="card-header bg-danger font-weight-bolder">Customers</div>
+                        <div class="card-body">
+                            <div class="dash-tile-icon"><i class="fas fa-users"></i></div>
+                            <div class="dash-tile-text text-right text-black-50"><h2>99</h2></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-xl-4 mb-2">
+                    <div class="card">
+                        <div class="card-header bg-danger font-weight-bolder">Items</div>
+                        <div class="card-body">
+                            <div class="dash-tile-icon"><i class="fas fa-cubes"></i></div>
+                            <div class="dash-tile-text text-right text-black-50"><h2>101</h2></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-xl-4 mb-2">
+                    <div class="card">
+                        <div class="card-header bg-danger font-weight-bolder">My Orders</div>
+                        <div class="card-body">
+                            <div class="dash-tile-icon"><i class="fas fa-shopping-cart"></i></div>
+                            <div class="dash-tile-text text-right text-black-50"><h2>999</h2></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script src="assets/bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>

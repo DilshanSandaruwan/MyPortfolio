@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer</title>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        ul > li {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header class="jumbotron bg-primary text-white p-3">
+    <h1 class="position-absolute" id="nav"></h1>
+    <ul class="list-group list-group-horizontal text-danger justify-content-end font-weight-bold">
+        <li class="list-group-item bg-white" id="lnkHome"><a href="../Home.html">Home</a></li>
+        <li class="list-group-item bg-danger" id="lnkCustomer"><a class="text-white" href="Customer.html">Customer</a>
+        </li>
+        <li class="list-group-item bg-white" id="lnkItem"><a href="Item.html">Item</a></li>
+        <li class="list-group-item bg-white" id="lnkOrders"><a href="Oder.html">Orders</a></li>
+        <li class="list-group-item bg-white" id="lnkPlaceOrders"><a href="purchase-order.html">Place Order</a></li>
+    </ul>
+</header>
+
+<main class="container-fluid" id="customerContent">
+    <section class="row">
+        <div class="col-12 col-lg-4">
+            <h1>Customer Registration</h1>
+            <form id="customerForm">
+                <div class="form-group">
+                    <label for="txtCustomerID">Customer ID</label>
+                    <input name="cusID" class="form-control" id="txtCustomerID" type="text">
+                    <span class="control-error" id="lblcusid"></span>
+                </div>
+
+                    <div class="form-group">
+                        <label for="txtCustomerID">Customer Name</label>
+                        <input name="cusID" class="form-control" id="txtCustomerName" type="text">
+                        <span class="control-error" id="lblcusname"></span>
+                    </div>
+
+                <div class="form-group">
+                    <label for="txtCustomerID">Customer Address</label>
+                    <input name="cusID" class="form-control" id="txtCustomerAdress" type="text">
+                    <span class="control-error" id="lblcusadress"></span>
+                </div>
+
+                <div class="btn-group m-2">
+                    <button type="button" class="btn btn-primary" id="btnCustomer">
+                        Save Customer
+                    </button>
+                    <button type="button" class="btn btn-danger"
+                            id="btnCusDelete">Remove
+                    </button>
+                    <button type="button" class="btn btn-warning"
+                            id="btnUpdate">Update
+                    </button>
+<!--                    <button type="button" class="btn btn-success" id="btnGetAll">Get All</button>-->
+<!--                    <button type="button" class="btn btn-danger" id="btnClear">Clear All</button>-->
+                </div>
+            </form>
+        </div>
+
+        <div class="col-12 col-lg-8 mt-3">
+            <table class="table table-bordered table-hover">
+                <thead class="bg-danger text-white">
+                <tr>
+                    <th>Customer ID</th>
+                    <th>Customer Name</th>
+                    <th>Customer Address</th>
+                </tr>
+                </thead>
+                <tbody id="tblCustomer">
+
+                </tbody>
+            </table>
+        </div>
+    </section>
+</main>
+
+
+
+<script src="../assets/bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>

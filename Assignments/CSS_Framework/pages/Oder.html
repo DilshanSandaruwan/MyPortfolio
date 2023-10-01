@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/bootstrap/css/styles.css">
+
+    <style>
+        ul > li {
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+<body>
+<header class="jumbotron bg-primary text-white p-3">
+    <h1 class="position-absolute" id="nav"></h1>
+    <ul class="list-group list-group-horizontal text-danger justify-content-end font-weight-bold">
+        <li class="list-group-item bg-white" id="lnkHome"><a href="../Home.html">Home</a></li>
+        <li class="list-group-item bg-white text-white" id="lnkCustomer"><a href="Customer.html">Customer</a>
+        </li>
+        <li class="list-group-item bg-white" id="lnkItem"><a href="Item.html">Item</a></li>
+        <li class="list-group-item bg-danger" id="lnkOrders"><a class="text-white" href="Oder.html">Orders</a></li>
+        <li class="list-group-item bg-white" id="lnkPlaceOrders"><a href="purchase-order.html">Place Order</a></li>
+    </ul>
+</header>
+
+<div class="container mt-4">
+    <div class="input-group">
+        <input id="searchText" type="text" class="form-control" placeholder="Search Order">
+        <button id="btnSearch" class="btn btn-primary">Search</button>
+    </div>
+</div>
+
+<!--customer content-->
+<main class="container-fluid" id="customerContent">
+    <div class="col-12 col-lg-12 mt-3">
+        <table class="table table-bordered table-hover">
+            <thead class="bg-dark text-white">
+            <tr>
+                <th scope="col">Order ID</th>
+                <th scope="col">Date</th>
+                <th scope="col">Customer ID</th>
+                <th scope="col">Items ID(s)</th>
+                <th scope="col">Discount</th>
+                <th scope="col">Total</th>
+            </tr>
+            </thead>
+            <tbody id="tblOrders">
+
+            </tbody>
+        </table>
+    </div>
+    </section>
+</main>
+
+
+<script src="../assets/bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>
