@@ -90,8 +90,8 @@
                     <button type="button" class="btn btn-warning"
                             id="btnUpdate">Update
                     </button>
-                    <!--                    <button type="button" class="btn btn-success" id="btnGetAll">Get All</button>-->
-                    <!--                    <button type="button" class="btn btn-danger" id="btnClear">Clear All</button>-->
+                                        <button type="button" class="btn btn-success" id="CusbtnGetAll">Get All</button>
+                                        <button type="button" class="btn btn-danger" id="CusbtnClear">Clear All</button>
                 </div>
             </form>
         </div>
@@ -144,8 +144,8 @@
                 <button type="button" class="btn btn-primary" id="btnItem">Add Item</button>
                 <button type="button" class="btn btn-danger" id="btnItemDelete">Remove</button>
                 <button type="button" class="btn btn-warning" id="btnItemUpdate">Update</button>
-                <!--                <button type="button" class="btn btn-success" id="btnGetAllItems">Get All</button>-->
-                <!--                <button type="reset" class="btn btn-danger" id="btnClear">Clear All</button>-->
+                                <button type="button" class="btn btn-success" id="ItembtnGetAllItems">Get All</button>
+                                <button type="reset" class="btn btn-danger" id="ItembtnClear">Clear All</button>
             </div>
 
         </div>
@@ -453,15 +453,45 @@
 
 
     let ad_cus_btn = document.querySelector("#btnCustomer");
-    let cus_id = document.querySelector("#lblcusid");
-    let cus_name = document.querySelector("lblcusname");
-    let cus_address= document.querySelector("#lblcusadress");
-    var cus_array = new Array(cus_id,cus_name,cus_address);
+    let cus_id = document.querySelector("#txtCustomerID");
+    let cus_name = document.querySelector("txtCustomerName");
+    let cus_address= document.querySelector("#txtCustomerAdress");
+    let customers = new Array();
 
 
     ad_cus_btn.addEventListener("click",function () {
-
+       var customer = {
+           id:txtCustomerID.value,
+           name:txtCustomerName.value,
+           addres:txtCustomerAdress.value
+       }
+        customers.push(customer);
+       console.log(customers);
     })
+
+    document.querySelector("#CusbtnGetAll").addEventListener("click", function () {
+
+        alert('hh');
+        for(let i=0; i<customers.length; i++) {
+
+            let tBody = document.querySelector("#tblCustomer");
+
+            let tr = document.createElement("tr");
+
+            let col1 = document.createElement("td");
+            let col2 = document.createElement("td");
+            let col3 = document.createElement("td");
+
+
+            col1.textContent = customers[i].id;
+            col2.textContent = customers[i].name;
+            col3.textContent = customers[i].addres;
+
+            tr.append(col1,col2,col3);
+
+            tBody.append(tr);
+        }
+    });
 </script>
 </body>
 </html>
