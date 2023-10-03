@@ -26,22 +26,25 @@
         section>div:nth-child(5){
             top: 7.5vw;
         }
-        section>div:nth-child(1){
-            background-color: #fd4040;
-        }
-        section>div:nth-child(2){
-            background-color: yellow;
-        }
-        section>div:nth-child(3){
-            background-color: blue;
-        }
-        section>div:nth-child(4){
-            background-color: green;
-        }
-        section>div:nth-child(5){
-            background-color: deeppink;
-        }
+        /*section>div:nth-child(1){*/
+        /*    background-color: #fd4040;*/
+        /*}*/
+        /*section>div:nth-child(2){*/
+        /*    background-color: yellow;*/
+        /*}*/
+        /*section>div:nth-child(3){*/
+        /*    background-color: blue;*/
+        /*}*/
+        /*section>div:nth-child(4){*/
+        /*    background-color: green;*/
+        /*}*/
+        /*section>div:nth-child(5){*/
+        /*    background-color: deeppink;*/
+        /*}*/
     </style>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+    <script src="assets/bootstrap/js/bootstrap.bundle.js"></script>
+
 </head>
 <body>
 <section>
@@ -52,17 +55,17 @@
     <div></div>
 </section>
 
+<script src="assets/js/JavaScript.js"></script>
 <script>
-    var names=["Dasun","Kasun","Nimal"];
 
-    var colors = new Array("red","green","orange");
+    var colors = new Array("red","green","orange","blue","yellow");
+   var divs = document.querySelectorAll("section>div");
 
-    for (let i in names){
-        console.log(i);
-    }
-    for (let i of names){
-        console.log(i);
-    }
+   for (i in colors){
+       divs[i].style.backgroundColor = colors[i];
+   }
+
+
 </script>
 </body>
 </html>
