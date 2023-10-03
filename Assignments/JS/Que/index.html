@@ -26,21 +26,7 @@
         section>div:nth-child(5){
             top: 7.5vw;
         }
-        /*section>div:nth-child(1){*/
-        /*    background-color: #fd4040;*/
-        /*}*/
-        /*section>div:nth-child(2){*/
-        /*    background-color: yellow;*/
-        /*}*/
-        /*section>div:nth-child(3){*/
-        /*    background-color: blue;*/
-        /*}*/
-        /*section>div:nth-child(4){*/
-        /*    background-color: green;*/
-        /*}*/
-        /*section>div:nth-child(5){*/
-        /*    background-color: deeppink;*/
-        /*}*/
+
     </style>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
     <script src="assets/bootstrap/js/bootstrap.bundle.js"></script>
@@ -55,17 +41,23 @@
     <div></div>
 </section>
 
-<script src="assets/js/JavaScript.js"></script>
 <script>
 
     var colors = new Array("red","green","orange","blue","yellow");
    var divs = document.querySelectorAll("section>div");
 
-   for (i in colors){
-       divs[i].style.backgroundColor = colors[i];
+   setInterval(processQue,300)
+
+   function processQue() {
+
+       for (let i =0;  i<colors.length; i++){
+           divs[i].style.backgroundColor = colors[i];
+       }
+
+       let lastvalue = colors.pop();
+       colors.unshift(lastvalue);
    }
-
-
+    
 </script>
 </body>
 </html>
