@@ -189,6 +189,7 @@ body>section:nth-child(5)>section:nth-child(2)>div{
     position: relative;
     right: 0;
     left: 0;
+    width: 100vw;
     margin: auto;
     height: 100vh;
 }
@@ -226,6 +227,7 @@ body>section:nth-child(6)>img:nth-child(1){
     position: relative;
     left: 0;
     right: 0;
+    width: 100vw;
     height: 100vh;
 }
 body>section:nth-child(7)>img:nth-child(1){
@@ -249,6 +251,7 @@ body>section:nth-child(7)>section:nth-child(2)>div>img{
     left: 0;
     right: 0;
     height: 80vh;
+    width: 100vw;
     display: flex;
 }
 body>section:nth-child(9)>section:nth-child(1){
