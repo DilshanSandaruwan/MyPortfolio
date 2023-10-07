@@ -21,7 +21,7 @@
 
 
         @media all and (max-width: 320px) {
-            #section03,#section4,#section05,#section06,#section07{
+            #section4,#section05,#section06,#section07{
                 display: none;
             }
             footer{
@@ -142,6 +142,56 @@
                 width: 33vw;
             }
 
+            /*Education.....*/
+
+            #section03{
+                flex-direction: column;
+                display: flex;
+            }
+            .box{
+                display: flex;
+                flex-wrap: wrap;
+                align-content: stretch;
+                align-items: stretch;
+            }
+            #div01{
+                width: 98vw;
+            }
+            #div03{
+                position: relative;
+                right: 18vw;
+                width: 98vw;
+            }
+            body>section:nth-child(4)>div:nth-child(5){
+                position: relative;
+                top: 50px;
+                justify-content: start;
+
+            }
+            body>section:nth-child(4)>img:nth-child(1) {
+                top: 74vw;
+                position: relative;
+                width: 30vw;
+            }
+            body>section:nth-child(4)>img:nth-child(2) {
+                right: 14vw;
+                position: relative;
+                width: 64vw;
+            }
+            body>section:nth-child(4)>div:nth-child(3)>img {
+                right: 21vw;
+                position: relative;
+                border-radius: 20px;
+            }
+            body>section:nth-child(4)>div:nth-child(5)>img {
+                left: 25vw;
+                position: relative;
+                border-radius: 20px;
+            }
+
+            body>section:nth-child(4)>img:nth-child(6) {
+                display: none;
+            }
         }
 
 </style>
@@ -232,7 +282,7 @@
     <img id="education" src="assets/images/Vector3.png">
     <img src="assets/images/educationText.png">
 
-    <div>
+    <div id="div01" class="box">
         <img src="assets/images/IJSElogo.png">
         <div class="rectangle">
             <hgroup>
@@ -242,9 +292,7 @@
             </hgroup>
         </div>
     </div>
-
-
-    <div>
+    <div id="div02" class="box">
         <img src="assets/images/CFTLlogo.png">
         <div class="rectangle">
             <hgroup>
@@ -254,8 +302,7 @@
         </div>
         <!--                <img src="assets/images/Frame%202.png">-->
     </div>
-
-    <div>
+    <div id="div03" class="box">
         <img src="assets/images/Ellipse%206.png">
         <div class="rectangle">
             <hgroup>
