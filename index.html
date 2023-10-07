@@ -21,7 +21,7 @@
 
 
         @media all and (max-width: 320px) {
-            #section05,#section06,#section07{
+           #section06,#section07{
                 display: none;
             }
             footer{
@@ -210,6 +210,20 @@
                 justify-content: center;
                 margin-top: 12vw;
                 flex-wrap: wrap;
+            }
+
+            #section05{
+                position: relative;
+                right: 0;
+                left: 0;
+                width: 100vw;
+                margin: auto;
+                height: 50vh;
+            }
+            #section05>div>img {
+                height: 30vw;
+                filter: grayscale(80%);
+                transition: 0.5s;
             }
         }
 
