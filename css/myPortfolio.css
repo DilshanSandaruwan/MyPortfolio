@@ -38,47 +38,47 @@ header>nav>ul{
 
 /*Home ............*/
 
-#section01{
-    display: flex;
-    right: 0;
-    left: 0;
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-}
-body>section:nth-child(2)>section:nth-child(1){
-    width: 60vw;
-}
-body>section:nth-child(2)>div:nth-child(2){
-    width: 40vw;
-}
-body>section:nth-child(2)>div:nth-child(2)>img{
-    width: 40vw;
-}
-body>section:nth-child(2)>section:nth-child(1)>h1{
-    display: flex;
-    justify-content: left;
-    margin-left: 10vw;
-    margin-top: 10vw;
-}
-body>section:nth-child(2)>section:nth-child(1)>h2:nth-child(2){
-    display: flex;
-    justify-content: left;
-    margin-left: 10vw;
-    margin-top: 3vw;
-}
-body>section:nth-child(2)>section:nth-child(1)>div:nth-child(3){
-    display: flex;
-    justify-content: left;
-    margin-left: 10vw;
-    margin-top: 3vw;
-    flex-direction: row;
-}
-body>section:nth-child(2)>section:nth-child(1)>img:nth-child(4){
-    display: flex;
-    justify-content: left;
-    margin-top: -10vw;
-}
+/*#section01{*/
+/*    display: flex;*/
+/*    right: 0;*/
+/*    left: 0;*/
+/*    position: relative;*/
+/*    width: 100vw;*/
+/*    height: 100vh;*/
+/*}*/
+/*body>section:nth-child(2)>section:nth-child(1){*/
+/*    width: 60vw;*/
+/*}*/
+/*body>section:nth-child(2)>div:nth-child(2){*/
+/*    width: 40vw;*/
+/*}*/
+/*body>section:nth-child(2)>div:nth-child(2)>img{*/
+/*    width: 40vw;*/
+/*}*/
+/*body>section:nth-child(2)>section:nth-child(1)>h1{*/
+/*    display: flex;*/
+/*    justify-content: left;*/
+/*    margin-left: 10vw;*/
+/*    margin-top: 10vw;*/
+/*}*/
+/*body>section:nth-child(2)>section:nth-child(1)>h2:nth-child(2){*/
+/*    display: flex;*/
+/*    justify-content: left;*/
+/*    margin-left: 10vw;*/
+/*    margin-top: 3vw;*/
+/*}*/
+/*body>section:nth-child(2)>section:nth-child(1)>div:nth-child(3){*/
+/*    display: flex;*/
+/*    justify-content: left;*/
+/*    margin-left: 10vw;*/
+/*    margin-top: 3vw;*/
+/*    flex-direction: row;*/
+/*}*/
+/*body>section:nth-child(2)>section:nth-child(1)>img:nth-child(4){*/
+/*    display: flex;*/
+/*    justify-content: left;*/
+/*    margin-top: -10vw;*/
+/*}*/
 
 /*About................*/
 
@@ -108,6 +108,14 @@ body>section:nth-child(3)>section:nth-child(2)>img:nth-child(2){
     margin-top: -30vw;
     display: none;
     justify-content: right;
+}
+
+#section03{
+    position: relative;
+    right: 0;
+    left:0;
+    width: 100vw;
+    height: 116vh;
 }
 body>section:nth-child(4)>div{
     display: flex;
