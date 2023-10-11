@@ -1,3 +1,4 @@
+
 header{
     background-color: snow;
     height: 50px;
@@ -38,47 +39,47 @@ header>nav>ul{
 
 /*Home ............*/
 
-/*#section01{*/
-/*    display: flex;*/
-/*    right: 0;*/
-/*    left: 0;*/
-/*    position: relative;*/
-/*    width: 100vw;*/
-/*    height: 100vh;*/
-/*}*/
-/*body>section:nth-child(2)>section:nth-child(1){*/
-/*    width: 60vw;*/
-/*}*/
-/*body>section:nth-child(2)>div:nth-child(2){*/
-/*    width: 40vw;*/
-/*}*/
-/*body>section:nth-child(2)>div:nth-child(2)>img{*/
-/*    width: 40vw;*/
-/*}*/
-/*body>section:nth-child(2)>section:nth-child(1)>h1{*/
-/*    display: flex;*/
-/*    justify-content: left;*/
-/*    margin-left: 10vw;*/
-/*    margin-top: 10vw;*/
-/*}*/
-/*body>section:nth-child(2)>section:nth-child(1)>h2:nth-child(2){*/
-/*    display: flex;*/
-/*    justify-content: left;*/
-/*    margin-left: 10vw;*/
-/*    margin-top: 3vw;*/
-/*}*/
-/*body>section:nth-child(2)>section:nth-child(1)>div:nth-child(3){*/
-/*    display: flex;*/
-/*    justify-content: left;*/
-/*    margin-left: 10vw;*/
-/*    margin-top: 3vw;*/
-/*    flex-direction: row;*/
-/*}*/
-/*body>section:nth-child(2)>section:nth-child(1)>img:nth-child(4){*/
-/*    display: flex;*/
-/*    justify-content: left;*/
-/*    margin-top: -10vw;*/
-/*}*/
+#section01{
+    display: flex;
+    right: 0;
+    left: 0;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+body>section:nth-child(2)>section:nth-child(1){
+    width: 60vw;
+}
+body>section:nth-child(2)>div:nth-child(2){
+    width: 40vw;
+}
+body>section:nth-child(2)>div:nth-child(2)>img{
+    width: 40vw;
+}
+body>section:nth-child(2)>section:nth-child(1)>h1{
+    display: flex;
+    justify-content: left;
+    margin-left: 10vw;
+    margin-top: 10vw;
+}
+body>section:nth-child(2)>section:nth-child(1)>h2:nth-child(2){
+    display: flex;
+    justify-content: left;
+    margin-left: 10vw;
+    margin-top: 3vw;
+}
+body>section:nth-child(2)>section:nth-child(1)>div:nth-child(3){
+    display: flex;
+    justify-content: left;
+    margin-left: 10vw;
+    margin-top: 3vw;
+    flex-direction: row;
+}
+body>section:nth-child(2)>section:nth-child(1)>img:nth-child(4){
+    display: flex;
+    justify-content: left;
+    margin-top: -10vw;
+}
 
 /*About................*/
 
@@ -90,26 +91,22 @@ header>nav>ul{
     width: 100vw;
     display: flex;
 }
-body>section:nth-child(3)>img:nth-child(1){
-    margin-top: 10vh;
-    width: 30vw;
-    height: 80vh;
+body>section:nth-child(3)>section:nth-child(1){
     display: flex;
-    justify-content: left;
-}
-body>section:nth-child(3)>section:nth-child(2)>pre:nth-child(1){
-    font-size: 1.5vw;
+    margin-top: 5vw;
+    width: 40vw;
 }
 body>section:nth-child(3)>section:nth-child(2){
-    width: 100vw;
+    margin-top: 5vw;
+    width: 60vw;
 }
 body>section:nth-child(3)>section:nth-child(2)>img:nth-child(2){
-    margin-left: 47vw;
-    margin-top: -30vw;
-    display: none;
-    justify-content: right;
+    margin-left: 5vw;
 }
 
+
+
+/*Education*/
 #section03{
     position: relative;
     right: 0;
@@ -155,7 +152,7 @@ body>section:nth-child(4)>div:nth-child(5)>img{
     margin-right: 40px;
 }
 body>section:nth-child(4)>img:nth-child(2){
-    margin-bottom: 5vw;
+    margin-top: 2vw;
     padding-left: 42vw;
 }
 body>section:nth-child(4)>img:nth-child(1){
@@ -165,7 +162,7 @@ body>section:nth-child(4)>img:nth-child(1){
 body>section:nth-child(4)>img:nth-child(6){
     width: 10vw;
     position: relative;
-    bottom: 10vw;
+    bottom: 21vw;
     left: 90vw;
 }
 
@@ -186,8 +183,10 @@ body>section:nth-child(4)>img:nth-child(6){
 body>section:nth-child(5)>section:nth-child(2){
     display: flex;
     flex-direction: row;
-    justify-content: center;
     margin-top: 7vw;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
 }
 body>section:nth-child(5)>section:nth-child(2)>div{
     padding-left: 1vw;

@@ -1,4 +1,4 @@
-@media all and (max-width: 320px) {
+@media all and (max-width: 321px) {
     footer{
         display: none;
     }
@@ -240,7 +240,7 @@
     }
 }
 
-@media all and (min-width: 321px) and (max-width: 375px){
+@media all and (min-width: 376px) and (max-width:426px){
     footer{
         display: none;
     }
@@ -483,7 +483,7 @@
     }
 }
 
-@media all and (min-width: 376px) and (max-width: 425px){
+@media all and (min-width: 321px) and (max-width:376px){
     footer{
         display: none;
     }
@@ -726,7 +726,7 @@
     }
 }
 
-@media all and (min-width: 426px) and (max-width: 580px){
+@media all and (min-width:426px) and (max-width:768px){
     footer{
         display: none;
     }
