@@ -152,8 +152,11 @@ body>section:nth-child(4)>div:nth-child(5)>img{
     margin-right: 40px;
 }
 body>section:nth-child(4)>img:nth-child(2){
-    margin-top: 2vw;
-    padding-left: 42vw;
+    position: relative;
+    top: 10vw;
+    left: 20vw;
+    /*margin-top: 2vw;*/
+    /*padding-left: 42vw;*/
 }
 body>section:nth-child(4)>img:nth-child(1){
     position: absolute;
