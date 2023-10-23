@@ -20,6 +20,7 @@
     />
 
     <style>
+
         @media all and (max-width: 320px) {
             footer{
                 display: none;
@@ -67,7 +68,7 @@
                 left: 0;
                 position: relative;
                 width: 100vw;
-                height: 100vh;
+                height: 70vh;
             }
             body>section:nth-child(2)>section:nth-child(1){
                 width: 60vw;
@@ -105,21 +106,30 @@
             /*About................*/
             #whoHeader{
                 left: 20vw;
-                bottom: 145vw;
+                bottom: 93vw;
                 position: relative;
                 width: 34vw;
             }
-
+            #whoIam{
+                margin-left: 15vw;
+                margin-top: 21vw;
+                width: 66vw;
+            }
+            body>section:nth-child(3)>section:nth-child(1) {
+                display: block;
+                margin-top: 5vw;
+                width: 40vw;
+            }
             body>section:nth-child(3)>img:nth-child(1){
                 left: 14vw;
                 position: relative;
                 width: 57vw;
             }
             body>section:nth-child(3)>section:nth-child(2){
-                top: 92vw;
+                top: 40vw;
                 position: relative;
                 width: 100vw;
-                right: 71vw;
+                right: 53vw;
             }
             body>section:nth-child(3)>section:nth-child(2)>pre:nth-child(1){
                 font-size: 3vw;
@@ -133,28 +143,41 @@
                 left: 0;
                 position: relative;
                 width: 100vw;
-                height: 146vh;
+                height: 105vh;
             }
             #cv{
+                margin-left: 20vw;
+                margin-top: 50vw;
                 width: 33vw;
             }
 
             /*Education.....*/
 
             #section03{
+                height: 138vh;
                 flex-direction: column;
                 display: flex;
             }
             .box{
                 display: flex;
                 flex-wrap: wrap;
-                align-content: stretch;
-                align-items: stretch;
+                align-content: flex-start;
+                align-items: center;
+                flex-direction: column;
             }
+            body>section:nth-child(4)>img:nth-child(2) {
+                width: 40vw;
+                position: relative;
+                top: 10vw;
+                left: 20vw;
+            }
+
+
             #div01{
                 width: 98vw;
             }
             #div02{
+                width: 95vw ;
                 justify-content: center;
                 margin-top:0px;
             }
@@ -165,30 +188,11 @@
                 width: 98vw;
                 justify-content: start;
             }
-
-            body>section:nth-child(4)>img:nth-child(1) {
-                top: 74vw;
-                position: relative;
-                width: 30vw;
-            }
-            body>section:nth-child(4)>img:nth-child(2) {
-                right: 14vw;
-                position: relative;
-                width: 64vw;
-            }
-            body>section:nth-child(4)>div:nth-child(3)>img {
-                right: 21vw;
-                position: relative;
-                border-radius: 20px;
-            }
-            body>section:nth-child(4)>div:nth-child(5)>img {
-                left: 25vw;
-                position: relative;
-                border-radius: 20px;
-            }
-
             body>section:nth-child(4)>img:nth-child(6) {
-                display: none;
+                width: 10vw;
+                position: relative;
+                bottom: 8vw;
+                left: 90vw;
             }
 
             /*Skills...*/
@@ -228,7 +232,10 @@
                 left: 0;
                 right: 0;
                 width: 100vw;
-                height: 265vh;
+                height: 200vh;
+            }
+            body>section:nth-child(7)>section:nth-child(2)>div>img {
+                height: 63vh;
             }
             body>section:nth-child(7)>section:nth-child(2) {
                 margin-top: 5vw;
@@ -261,12 +268,12 @@
                 font-weight: bolder;
             }
         }
-
-        @media all and (min-width: 321px) and (max-width: 375px){
-            footer{
+        @media all and (min-width: 321px) and (max-width: 375px) {
+            footer {
                 display: none;
             }
-            header{
+
+            header {
                 background-color: snow;
                 height: 50px;
 
@@ -275,914 +282,204 @@
                 position: fixed;
                 z-index: 3;
             }
-            header>img{
+
+            header > img {
                 width: 10%;
                 margin: 7px;
                 transition-duration: 2s;
                 transition-property: all;
             }
-            header>nav>ul>li>a{
+
+            header > nav > ul > li > a {
                 width: 2vw;
             }
-            header>nav>ul>li>a:hover {
+
+            header > nav > ul > li > a:hover {
                 width: 3vw;
                 filter: drop-shadow(0 0 1vw black);
             }
-            header>nav>ul>li {
+
+            header > nav > ul > li {
                 display: inline;
                 margin-right: 20px;
             }
-            header>nav>ul>li>a{
+
+            header > nav > ul > li > a {
                 width: 2vw;
                 text-decoration: none;
                 color: #0C1154;
             }
-            header>nav>ul{
+
+            header > nav > ul {
                 position: absolute;
                 top: 5px;
                 right: 25px
             }
 
             /*Home ............*/
-            #section01{
+            #section01 {
                 right: 0;
                 left: 0;
                 position: relative;
                 width: 100vw;
-                height: 118vh;
+                height: 70vh;
             }
-            body>section:nth-child(2)>section:nth-child(1){
+
+            body > section:nth-child(2) > section:nth-child(1) {
                 width: 60vw;
             }
-            body>section:nth-child(2)>div:nth-child(2){
+
+            body > section:nth-child(2) > div:nth-child(2) {
                 position: relative;
                 right: 31vw;
             }
-            body>section:nth-child(2)>div:nth-child(2)>img {
-                right: 26vw;
+
+            body > section:nth-child(2) > div:nth-child(2) > img {
+                right: 17vw;
                 top: 15vw;
                 position: relative;
-                width: 82vw;
+                width: 67vw;
             }
-            body>section:nth-child(2)>section:nth-child(1)>h1 {
+
+            body > section:nth-child(2) > section:nth-child(1) > h1 {
                 width: 72vw;
-                font-size: 7vw;
+                font-size: 5vw;
                 justify-content: left;
-                margin-left: 15vw;
-                margin-top: 110vw;
+                margin-left: 10vw;
+                margin-top: 93vw;
             }
-            body>section:nth-child(2)>section:nth-child(1)>h2:nth-child(2) {
-                margin-left: 14vw;
-                margin-top: 9vw;
+
+            body > section:nth-child(2) > section:nth-child(1) > h2:nth-child(2) {
+                margin-left: 10vw;
+                margin-top: 3vw;
             }
-            body>section:nth-child(2)>section:nth-child(1)>div:nth-child(3){
+
+            body > section:nth-child(2) > section:nth-child(1) > div:nth-child(3) {
                 margin-left: 10vw;
                 margin-top: 3vw;
                 flex-direction: row;
             }
-            body>section:nth-child(2)>section:nth-child(1)>img:nth-child(4){
+
+            body > section:nth-child(2) > section:nth-child(1) > img:nth-child(4) {
                 display: none;
             }
 
             /*About................*/
-            #whoHeader{
+            #whoHeader {
                 left: 20vw;
-                bottom: 142vw;
+                bottom: 93vw;
                 position: relative;
                 width: 34vw;
             }
 
-            body>section:nth-child(3)>img:nth-child(1){
-                left: 14vw;
-                position: relative;
-                width: 57vw;
-            }
-            body>section:nth-child(3)>section:nth-child(2){
-                top: 92vw;
-                position: relative;
-                width: 100vw;
-                right: 71vw;
-            }
-            body>section:nth-child(3)>section:nth-child(2)>pre:nth-child(1) {
-                font-size: 3vw;
-                top: 49vw;
-                left: 6vw;
-                position: relative;
-                font-family: Roboto Serif;
-            }
-            #section02{
-                right: 0;
-                left: 0;
-                position: relative;
-                width: 100vw;
-                height: 146vh;
-            }
-            #cv{
-                width: 33vw;
+            #whoIam {
+                margin-left: 15vw;
+                margin-top: 21vw;
+                width: 66vw;
             }
 
-            /*Education.....*/
-
-            #section03{
-                flex-direction: column;
-                display: flex;
-            }
-            .box{
-                display: flex;
-                flex-wrap: wrap;
-                align-content: stretch;
-                align-items: stretch;
-            }
-            #div01{
-                width: 98vw;
-            }
-            #div02{
-                justify-content: center;
-                margin-top:0px;
-            }
-            #div03{
-                top: 0vw;
-                position: relative;
-                right: 18vw;
-                width: 98vw;
-                justify-content: start;
-            }
-
-            body>section:nth-child(4)>img:nth-child(1) {
-                top: 74vw;
-                position: relative;
-                width: 30vw;
-            }
-            body>section:nth-child(4)>img:nth-child(2) {
-                right: 14vw;
-                position: relative;
-                width: 64vw;
-            }
-            body>section:nth-child(4)>div:nth-child(3)>img {
-                right: 21vw;
-                position: relative;
-                border-radius: 20px;
-            }
-            body>section:nth-child(4)>div:nth-child(5)>img {
-                left: 25vw;
-                position: relative;
-                border-radius: 20px;
-            }
-
-            body>section:nth-child(4)>img:nth-child(6) {
-                display: none;
-            }
-
-            /*Skills...*/
-            #section4{
-                position: relative;
-                width: 100vw;
-                height: 72vh;
-            }
-            #mySkill {
-                position: relative;
-                left: 0vw;
-            }
-            body>section:nth-child(5)>section:nth-child(2) {
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                margin-top: 12vw;
-                flex-wrap: wrap;
-            }
-
-            #section05{
-                position: relative;
-                right: 0;
-                left: 0;
-                width: 100vw;
-                margin: auto;
-                height: 50vh;
-            }
-            #section05>div>img {
-                height: 30vw;
-                filter: grayscale(80%);
-                transition: 0.5s;
-            }
-
-            #section06{
-                position: relative;
-                left: 0;
-                right: 0;
-                width: 100vw;
-                height: 265vh;
-            }
-            body>section:nth-child(7)>section:nth-child(2) {
-                margin-left: 9vw;
+            body > section:nth-child(3) > section:nth-child(1) {
+                display: block;
                 margin-top: 5vw;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-            }
-            body>section:nth-child(7)>img:nth-child(1) {
-                width: 75vw;
-                top: 5vw;
-                position: relative;
-                left: 0vw;
-            }
-            #section07 {
-                position: relative;
-                left: 0;
-                right: 0;
-                height: 122vh;
-                width: 100vw;
-                display: flex;
-            }
-            #btnSubmit {
-                position: relative;
-                left: 3vw;
-                width: 47vw;
-                height: 10vh;
-                border-radius: 20px;
-                background-color: #0C1154;
-                color: #aacccc;
-                font-weight: bolder;
-            }
-        }
-
-        @media all and (min-width: 376px) and (max-width: 425px){
-            footer{
-                display: none;
-            }
-            header{
-                background-color: snow;
-                height: 50px;
-
-                top: 0;
-                width: 100vw;
-                position: fixed;
-                z-index: 3;
-            }
-            header>img{
-                width: 10%;
-                margin: 7px;
-                transition-duration: 2s;
-                transition-property: all;
-            }
-            header>nav>ul>li>a{
-                width: 2vw;
-            }
-            header>nav>ul>li>a:hover {
-                width: 3vw;
-                filter: drop-shadow(0 0 1vw black);
-            }
-            header>nav>ul>li {
-                display: inline;
-                margin-right: 20px;
-            }
-            header>nav>ul>li>a{
-                width: 2vw;
-                text-decoration: none;
-                color: #0C1154;
-            }
-            header>nav>ul{
-                position: absolute;
-                top: 5px;
-                right: 25px
+                width: 40vw;
             }
 
-            /*Home ............*/
-            #section01{
-                right: 0;
-                left: 0;
-                position: relative;
-                width: 100vw;
-                height: 118vh;
-            }
-            body>section:nth-child(2)>section:nth-child(1){
-                width: 60vw;
-            }
-            body>section:nth-child(2)>div:nth-child(2){
-                position: relative;
-                right: 31vw;
-            }
-            body>section:nth-child(2)>div:nth-child(2)>img {
-                right: 26vw;
-                top: 15vw;
-                position: relative;
-                width: 82vw;
-            }
-            body>section:nth-child(2)>section:nth-child(1)>h1 {
-                width: 72vw;
-                font-size: 7vw;
-                justify-content: left;
-                margin-left: 15vw;
-                margin-top: 110vw;
-            }
-            body>section:nth-child(2)>section:nth-child(1)>h2:nth-child(2) {
-                margin-left: 14vw;
-                margin-top: 9vw;
-            }
-            body>section:nth-child(2)>section:nth-child(1)>div:nth-child(3){
-                margin-left: 10vw;
-                margin-top: 3vw;
-                flex-direction: row;
-            }
-            body>section:nth-child(2)>section:nth-child(1)>img:nth-child(4){
-                display: none;
-            }
-
-            /*About................*/
-            #whoHeader{
-                left: 20vw;
-                bottom: 142vw;
-                position: relative;
-                width: 34vw;
-            }
-
-            body>section:nth-child(3)>img:nth-child(1){
+            body > section:nth-child(3) > img:nth-child(1) {
                 left: 14vw;
                 position: relative;
                 width: 57vw;
             }
-            body>section:nth-child(3)>section:nth-child(2){
-                top: 92vw;
+
+            body > section:nth-child(3) > section:nth-child(2) {
+                top: 40vw;
                 position: relative;
                 width: 100vw;
-                right: 71vw;
+                right: 53vw;
             }
-            body>section:nth-child(3)>section:nth-child(2)>pre:nth-child(1) {
+
+            body > section:nth-child(3) > section:nth-child(2) > pre:nth-child(1) {
                 font-size: 3vw;
-                top: 49vw;
+                top: 52vw;
                 left: 6vw;
                 position: relative;
-                font-family: Roboto Serif;
+                font-family: Roboto Serif
             }
-            #section02{
+
+            #section02 {
                 right: 0;
                 left: 0;
                 position: relative;
                 width: 100vw;
-                height: 146vh;
+                height: 105vh;
             }
-            #cv{
+
+            #cv {
+                margin-left: 20vw;
+                margin-top: 50vw;
                 width: 33vw;
             }
 
             /*Education.....*/
-
-            #section03{
+            #section03 {
+                height: 138vh;
                 flex-direction: column;
                 display: flex;
             }
-            .box{
+
+            .box {
                 display: flex;
                 flex-wrap: wrap;
-                align-content: stretch;
-                align-items: stretch;
-            }
-            #div01{
-                width: 98vw;
-            }
-            #div02{
-                justify-content: center;
-                margin-top:0px;
-            }
-            #div03{
-                top: 0vw;
-                position: relative;
-                right: 18vw;
-                width: 98vw;
-                justify-content: start;
-            }
-
-            body>section:nth-child(4)>img:nth-child(1) {
-                top: 74vw;
-                position: relative;
-                width: 30vw;
-            }
-            body>section:nth-child(4)>img:nth-child(2) {
-                right: 14vw;
-                position: relative;
-                width: 64vw;
-            }
-            body>section:nth-child(4)>div:nth-child(3)>img {
-                right: 21vw;
-                position: relative;
-                border-radius: 20px;
-            }
-            body>section:nth-child(4)>div:nth-child(5)>img {
-                left: 25vw;
-                position: relative;
-                border-radius: 20px;
-            }
-
-            body>section:nth-child(4)>img:nth-child(6) {
-                display: none;
-            }
-
-            /*Skills...*/
-            #section4{
-                position: relative;
-                width: 100vw;
-                height: 72vh;
-            }
-            #mySkill {
-                position: relative;
-                left: 0vw;
-            }
-            body>section:nth-child(5)>section:nth-child(2) {
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                margin-top: 12vw;
-                flex-wrap: wrap;
-            }
-
-            #section05{
-                position: relative;
-                right: 0;
-                left: 0;
-                width: 100vw;
-                margin: auto;
-                height: 50vh;
-            }
-            #section05>div>img {
-                height: 30vw;
-                filter: grayscale(80%);
-                transition: 0.5s;
-            }
-
-            #section06{
-                position: relative;
-                left: 0;
-                right: 0;
-                width: 100vw;
-                height: 265vh;
-            }
-            body>section:nth-child(7)>section:nth-child(2) {
-                margin-left: 9vw;
-                margin-top: 5vw;
-                display: flex;
+                align-content: flex-start;
+                align-items: center;
                 flex-direction: column;
-                justify-content: center;
-            }
-            body>section:nth-child(7)>img:nth-child(1) {
-                width: 75vw;
-                top: 5vw;
-                position: relative;
-                left: 0vw;
-            }
-            #section07 {
-                position: relative;
-                left: 0;
-                right: 0;
-                height: 122vh;
-                width: 100vw;
-                display: flex;
-            }
-            #btnSubmit {
-                position: relative;
-                left: 3vw;
-                width: 47vw;
-                height: 10vh;
-                border-radius: 20px;
-                background-color: #0C1154;
-                color: #aacccc;
-                font-weight: bolder;
-            }
-        }
-
-        @media all and (min-width: 426px) and (max-width: 580px){
-            footer{
-                display: none;
-            }
-            header{
-                background-color: snow;
-                height: 50px;
-
-                top: 0;
-                width: 100vw;
-                position: fixed;
-                z-index: 3;
-            }
-            header>img{
-                width: 10%;
-                margin: 7px;
-                transition-duration: 2s;
-                transition-property: all;
-            }
-            header>nav>ul>li>a{
-                width: 2vw;
-            }
-            header>nav>ul>li>a:hover {
-                width: 3vw;
-                filter: drop-shadow(0 0 1vw black);
-            }
-            header>nav>ul>li {
-                display: inline;
-                margin-right: 20px;
-            }
-            header>nav>ul>li>a{
-                width: 2vw;
-                text-decoration: none;
-                color: #0C1154;
-            }
-            header>nav>ul{
-                position: absolute;
-                top: 5px;
-                right: 25px
             }
 
-            /*Home ............*/
-            #section01{
-                right: 0;
-                left: 0;
+            body > section:nth-child(4) > img:nth-child(2) {
+                width: 40vw;
                 position: relative;
-                width: 100vw;
-                height: 133vh;
-            }
-            body>section:nth-child(2)>section:nth-child(1){
-                width: 60vw;
-            }
-            body>section:nth-child(2)>div:nth-child(2){
-                position: relative;
-                right: 31vw;
-            }
-            body>section:nth-child(2)>div:nth-child(2)>img {
-                right: 26vw;
-                top: 15vw;
-                position: relative;
-                width: 82vw;
-            }
-            body>section:nth-child(2)>section:nth-child(1)>h1 {
-                width: 72vw;
-                font-size: 7vw;
-                justify-content: left;
-                margin-left: 15vw;
-                margin-top: 110vw;
-            }
-            body>section:nth-child(2)>section:nth-child(1)>h2:nth-child(2) {
-                margin-left: 14vw;
-                margin-top: 9vw;
-            }
-            body>section:nth-child(2)>section:nth-child(1)>div:nth-child(3){
-                margin-left: 10vw;
-                margin-top: 3vw;
-                flex-direction: row;
-            }
-            body>section:nth-child(2)>section:nth-child(1)>img:nth-child(4){
-                display: none;
-            }
-
-            /*About................*/
-            #whoHeader{
+                top: 10vw;
                 left: 20vw;
-                bottom: 108vw;
-                position: relative;
-                width: 34vw;
             }
 
-            body>section:nth-child(3)>img:nth-child(1){
-                margin-top: 26vw;
-                left: 14vw;
-                position: relative;
-                width: 57vw;
-            }
-            body>section:nth-child(3)>section:nth-child(2){
-                top: 92vw;
-                position: relative;
-                width: 100vw;
-                right: 71vw;
-            }
-            body>section:nth-child(3)>section:nth-child(2)>pre:nth-child(1) {
-                margin-top: 25vw;
-                font-size: 3vw;
-                left: 6vw;
-                position: relative;
-                font-family: Roboto Serif;
-            }
-            #section02{
-                right: 0;
-                left: 0;
-                position: relative;
-                width: 100vw;
-                height: 178vh;
-            }
-            #cv{
-                width: 33vw;
-            }
 
-            /*Education.....*/
-
-            #section03{
-                position: relative;
-                flex-direction: column;
-                display: flex;
-            }
-            .box{
-                display: flex;
-                flex-wrap: wrap;
-                align-content: stretch;
-                align-items: stretch;
-            }
-            #div01{
+            #div01 {
                 width: 98vw;
             }
-            #div02{
-                justify-content: center;
-                margin-top:0px;
-            }
-            #div03{
-                top: 0vw;
-                position: relative;
-                right: 8vw;
-                width: 98vw;
-                justify-content: start;
-            }
 
-            body>section:nth-child(4)>img:nth-child(1) {
-                position: relative;
-                width: 30vw;
-            }
-            body>section:nth-child(4)>img:nth-child(2) {
-                top: 25vw;
-                right: 14vw;
-                position: absolute;
-                width: 64vw;
-            }
-            body>section:nth-child(4)>div:nth-child(3)>img {
-                right: 21vw;
-                position: relative;
-                border-radius: 20px;
-            }
-            body>section:nth-child(4)>div:nth-child(5)>img {
-                left: 25vw;
-                position: relative;
-                border-radius: 20px;
-            }
-
-            body>section:nth-child(4)>img:nth-child(6) {
-                display: none;
-            }
-
-            /*Skills...*/
-            #section4{
-                position: relative;
-                width: 100vw;
-                height: 72vh;
-            }
-            #mySkill {
-                position: relative;
-                left: 0vw;
-            }
-            body>section:nth-child(5)>section:nth-child(2) {
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                margin-top: 12vw;
-                flex-wrap: wrap;
-            }
-
-            #section05{
-                position: relative;
-                right: 0;
-                left: 0;
-                width: 100vw;
-                margin: auto;
-                height: 62vh;
-            }
-            #section05>div>img {
-                height: 30vw;
-                filter: grayscale(80%);
-                transition: 0.5s;
-            }
-
-            #section06{
-                position: relative;
-                left: 0;
-                right: 0;
-                width: 100vw;
-                height: 265vh;
-            }
-            body>section:nth-child(7)>section:nth-child(2) {
-                margin-left: 9vw;
-                margin-top: 5vw;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-            }
-            body>section:nth-child(7)>img:nth-child(1) {
-                width: 75vw;
-                top: 5vw;
-                position: relative;
-                left: 0vw;
-            }
-            #section07 {
-                position: relative;
-                left: 0;
-                right: 0;
-                height: 122vh;
-                width: 100vw;
-                display: flex;
-            }
-            #btnSubmit {
-                position: relative;
-                left: 3vw;
-                width: 47vw;
-                height: 10vh;
-                border-radius: 20px;
-                background-color: #0C1154;
-                color: #aacccc;
-                font-weight: bolder;
-            }
-        }
-
-        @media all and (min-width: 581px) and (max-width: 768px){
-            footer{
-                display: none;
-            }
-            header{
-                background-color: snow;
-                height: 50px;
-
-                top: 0;
-                width: 100vw;
-                position: fixed;
-                z-index: 3;
-            }
-            header>img{
-                width: 10%;
-                margin: 7px;
-                transition-duration: 2s;
-                transition-property: all;
-            }
-            header>nav>ul>li>a{
-                width: 2vw;
-            }
-            header>nav>ul>li>a:hover {
-                width: 3vw;
-                filter: drop-shadow(0 0 1vw black);
-            }
-            header>nav>ul>li {
-                display: inline;
-                margin-right: 20px;
-            }
-            header>nav>ul>li>a{
-                width: 2vw;
-                text-decoration: none;
-                color: #0C1154;
-            }
-            header>nav>ul{
-                position: absolute;
-                top: 5px;
-                right: 25px
-            }
-
-            /*Home ............*/
-            #section01{
-                right: 0;
-                left: 0;
-                position: relative;
-                width: 100vw;
-                height: 177vh;
-            }
-            body>section:nth-child(2)>section:nth-child(1){
-                width: 60vw;
-            }
-            body>section:nth-child(2)>div:nth-child(2){
-                position: relative;
-                right: 31vw;
-            }
-            body>section:nth-child(2)>div:nth-child(2)>img {
-                right: 26vw;
-                top: 15vw;
-                position: relative;
-                width: 82vw;
-            }
-            body>section:nth-child(2)>section:nth-child(1)>h1 {
-                width: 72vw;
-                font-size: 7vw;
-                justify-content: left;
-                margin-left: 15vw;
-                margin-top: 110vw;
-            }
-            body>section:nth-child(2)>section:nth-child(1)>h2:nth-child(2) {
-                margin-left: 14vw;
-                margin-top: 9vw;
-            }
-            body>section:nth-child(2)>section:nth-child(1)>div:nth-child(3){
-                margin-left: 10vw;
-                margin-top: 3vw;
-                flex-direction: row;
-            }
-            body>section:nth-child(2)>section:nth-child(1)>img:nth-child(4){
-                display: none;
-            }
-
-            /*About................*/
-            #whoHeader{
-                left: 20vw;
-                bottom: 78vw;
-                position: relative;
-                width: 34vw;
-            }
-
-            body>section:nth-child(3)>img:nth-child(1){
-                margin-top: 11vw;
-                left: 14vw;
-                position: relative;
-                width: 57vw;
-            }
-            body>section:nth-child(3)>section:nth-child(2){
-                top: 92vw;
-                position: relative;
-                width: 100vw;
-                right: 71vw;
-            }
-            body>section:nth-child(3)>section:nth-child(2)>pre:nth-child(1) {
-                margin-top: -16vw;
-                font-size: 3vw;
-                left: 6vw;
-                position: relative;
-                font-family: Roboto Serif;
-            }
-            #section02{
-                right: 0;
-                left: 0;
-                position: relative;
-                width: 100vw;
-                height: 190vh;
-            }
-            #cv{
-                width: 33vw;
-            }
-
-            /*Education.....*/
-
-            #section03{
-                position: relative;
-                flex-direction: column;
-                display: flex;
-            }
-            .box{
-                display: flex;
-                flex-wrap: wrap;
-                align-content: stretch;
-                align-items: stretch;
-            }
-            #div01{
-                right: 9vw;
-                position: relative;
-                width: 98vw;
-                bottom: 18vw;
-            }
-            #div02{
-                left: 13vw;
-                width: 82vw;
-                bottom: 11vw;
-                position: relative;
+            #div02 {
+                width: 95vw;
                 justify-content: center;
                 margin-top: 0px;
             }
-            #div03{
-                top: -5vw;
+
+            #div03 {
+                top: 0vw;
                 position: relative;
-                right: -6vw;
-                width: 63vw;
+                right: 18vw;
+                width: 98vw;
+                justify-content: start;
             }
 
-            body>section:nth-child(4)>img:nth-child(1) {
+            body > section:nth-child(4) > img:nth-child(6) {
+                width: 10vw;
                 position: relative;
-                width: 30vw;
-            }
-            body>section:nth-child(4)>img:nth-child(2) {
-                top: 25vw;
-                right: 14vw;
-                position: absolute;
-                width: 47vw;
-            }
-            body>section:nth-child(4)>div:nth-child(3)>img {
-                right: 21vw;
-                position: relative;
-                border-radius: 20px;
-            }
-            body>section:nth-child(4)>div:nth-child(5)>img {
-                left: 25vw;
-                position: relative;
-                border-radius: 20px;
-            }
-
-            body>section:nth-child(4)>img:nth-child(6) {
-                display: none;
+                bottom: 8vw;
+                left: 90vw;
             }
 
             /*Skills...*/
-            #section4{
+            #section4 {
                 position: relative;
                 width: 100vw;
                 height: 72vh;
             }
+
             #mySkill {
                 position: relative;
                 left: 0vw;
             }
-            body>section:nth-child(5)>section:nth-child(2) {
+
+            body > section:nth-child(5) > section:nth-child(2) {
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
@@ -1190,41 +487,47 @@
                 flex-wrap: wrap;
             }
 
-            #section05{
+            #section05 {
                 position: relative;
                 right: 0;
                 left: 0;
                 width: 100vw;
                 margin: auto;
-                height: 83vh;
+                height: 50vh;
             }
-            #section05>div>img {
+
+            #section05 > div > img {
                 height: 30vw;
                 filter: grayscale(80%);
                 transition: 0.5s;
             }
 
-            #section06{
+            #section06 {
                 position: relative;
                 left: 0;
                 right: 0;
                 width: 100vw;
-                height: 265vh;
+                height: 200vh;
             }
-            body>section:nth-child(7)>section:nth-child(2) {
-                margin-left: 9vw;
+
+            body > section:nth-child(7) > section:nth-child(2) > div > img {
+                height: 63vh;
+            }
+
+            body > section:nth-child(7) > section:nth-child(2) {
                 margin-top: 5vw;
                 display: flex;
                 flex-direction: column;
-                justify-content: flex-end;
-                align-items: center;
+                justify-content: center;
             }
-            body>section:nth-child(7)>img:nth-child(1) {
+
+            body > section:nth-child(7) > img:nth-child(1) {
                 width: 75vw;
                 top: 5vw;
                 position: relative;
                 left: 0vw;
             }
+
             #section07 {
                 position: relative;
                 left: 0;
@@ -1233,6 +536,853 @@
                 width: 100vw;
                 display: flex;
             }
+
+            #btnSubmit {
+                position: relative;
+                left: 3vw;
+                width: 47vw;
+                height: 10vh;
+                border-radius: 20px;
+                background-color: #0C1154;
+                color: #aacccc;
+                font-weight: bolder;
+            }
+        }
+        @media all and (min-width: 376px) and (max-width: 425px){
+            footer {
+                display: none;
+            }
+
+            header {
+                background-color: snow;
+                height: 50px;
+
+                top: 0;
+                width: 100vw;
+                position: fixed;
+                z-index: 3;
+            }
+
+            header > img {
+                width: 10%;
+                margin: 7px;
+                transition-duration: 2s;
+                transition-property: all;
+            }
+
+            header > nav > ul > li > a {
+                width: 2vw;
+            }
+
+            header > nav > ul > li > a:hover {
+                width: 3vw;
+                filter: drop-shadow(0 0 1vw black);
+            }
+
+            header > nav > ul > li {
+                display: inline;
+                margin-right: 20px;
+            }
+
+            header > nav > ul > li > a {
+                width: 2vw;
+                text-decoration: none;
+                color: #0C1154;
+            }
+
+            header > nav > ul {
+                position: absolute;
+                top: 5px;
+                right: 25px
+            }
+
+            /*Home ............*/
+            #section01 {
+                right: 0;
+                left: 0;
+                position: relative;
+                width: 100vw;
+                height: 91vh;
+            }
+
+            body > section:nth-child(2) > section:nth-child(1) {
+                width: 60vw;
+            }
+
+            body > section:nth-child(2) > div:nth-child(2) {
+                position: relative;
+                right: 31vw;
+            }
+
+            body > section:nth-child(2) > div:nth-child(2) > img {
+                right: 17vw;
+                top: 15vw;
+                position: relative;
+                width: 67vw;
+            }
+
+            body > section:nth-child(2) > section:nth-child(1) > h1 {
+                width: 72vw;
+                font-size: 5vw;
+                justify-content: left;
+                margin-left: 10vw;
+                margin-top: 93vw;
+            }
+
+            body > section:nth-child(2) > section:nth-child(1) > h2:nth-child(2) {
+                margin-left: 10vw;
+                margin-top: 3vw;
+            }
+
+            body > section:nth-child(2) > section:nth-child(1) > div:nth-child(3) {
+                margin-left: 10vw;
+                margin-top: 3vw;
+                flex-direction: row;
+            }
+
+            body > section:nth-child(2) > section:nth-child(1) > img:nth-child(4) {
+                display: none;
+            }
+
+            /*About................*/
+            #whoHeader {
+                left: 20vw;
+                bottom: 93vw;
+                position: relative;
+                width: 34vw;
+            }
+
+            #whoIam {
+                margin-left: 15vw;
+                margin-top: 21vw;
+                width: 66vw;
+            }
+
+            body > section:nth-child(3) > section:nth-child(1) {
+                display: block;
+                margin-top: 5vw;
+                width: 40vw;
+            }
+
+            body > section:nth-child(3) > img:nth-child(1) {
+                left: 14vw;
+                position: relative;
+                width: 57vw;
+            }
+
+            body > section:nth-child(3) > section:nth-child(2) {
+                top: 40vw;
+                position: relative;
+                width: 100vw;
+                right: 53vw;
+            }
+
+            body > section:nth-child(3) > section:nth-child(2) > pre:nth-child(1) {
+                font-size: 3vw;
+                top: 52vw;
+                left: 6vw;
+                position: relative;
+                font-family: Roboto Serif
+            }
+
+            #section02 {
+                right: 0;
+                left: 0;
+                position: relative;
+                width: 100vw;
+                height: 121vh;
+            }
+
+            #cv {
+                margin-left: 20vw;
+                margin-top: 50vw;
+                width: 33vw;
+            }
+
+            /*Education.....*/
+            #section03 {
+                height: 138vh;
+                flex-direction: column;
+                display: flex;
+            }
+
+            .box {
+                display: flex;
+                flex-wrap: wrap;
+                align-content: flex-start;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            body > section:nth-child(4) > img:nth-child(2) {
+                width: 40vw;
+                position: relative;
+                top: 10vw;
+                left: 20vw;
+            }
+
+
+            #div01 {
+                width: 98vw;
+            }
+
+            #div02 {
+                width: 95vw;
+                justify-content: center;
+                margin-top: 0px;
+            }
+
+            #div03 {
+                top: 0vw;
+                position: relative;
+                right: 11vw;
+                width: 98vw;
+                justify-content: start;
+            }
+
+            body > section:nth-child(4) > img:nth-child(6) {
+                width: 10vw;
+                position: relative;
+                bottom: 8vw;
+                left: 90vw;
+            }
+
+            /*Skills...*/
+            #section4 {
+                position: relative;
+                width: 100vw;
+                height: 72vh;
+            }
+
+            #mySkill {
+                position: relative;
+                left: 0vw;
+            }
+
+            body > section:nth-child(5) > section:nth-child(2) {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin-top: 12vw;
+                flex-wrap: wrap;
+            }
+
+            #section05 {
+                position: relative;
+                right: 0;
+                left: 0;
+                width: 100vw;
+                margin: auto;
+                height: 50vh;
+            }
+
+            #section05 > div > img {
+                height: 30vw;
+                filter: grayscale(80%);
+                transition: 0.5s;
+            }
+
+            #section06 {
+                position: relative;
+                left: 0;
+                right: 0;
+                width: 100vw;
+                height: 200vh;
+            }
+
+            body > section:nth-child(7) > section:nth-child(2) > div > img {
+                height: 63vh;
+            }
+
+            body > section:nth-child(7) > section:nth-child(2) {
+                margin-top: 5vw;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            body > section:nth-child(7) > img:nth-child(1) {
+                width: 75vw;
+                top: 5vw;
+                position: relative;
+                left: 0vw;
+            }
+
+            #section07 {
+                position: relative;
+                left: 0;
+                right: 0;
+                height: 122vh;
+                width: 100vw;
+                display: flex;
+            }
+
+            #btnSubmit {
+                position: relative;
+                left: 3vw;
+                width: 47vw;
+                height: 10vh;
+                border-radius: 20px;
+                background-color: #0C1154;
+                color: #aacccc;
+                font-weight: bolder;
+            }
+        }
+        @media all and (min-width: 426px) and (max-width: 580px){
+            footer {
+                display: none;
+            }
+
+            header {
+                background-color: snow;
+                height: 50px;
+
+                top: 0;
+                width: 100vw;
+                position: fixed;
+                z-index: 3;
+            }
+
+            header > img {
+                width: 10%;
+                margin: 7px;
+                transition-duration: 2s;
+                transition-property: all;
+            }
+
+            header > nav > ul > li > a {
+                width: 2vw;
+            }
+
+            header > nav > ul > li > a:hover {
+                width: 3vw;
+                filter: drop-shadow(0 0 1vw black);
+            }
+
+            header > nav > ul > li {
+                display: inline;
+                margin-right: 20px;
+            }
+
+            header > nav > ul > li > a {
+                width: 2vw;
+                text-decoration: none;
+                color: #0C1154;
+            }
+
+            header > nav > ul {
+                position: absolute;
+                top: 5px;
+                right: 25px
+            }
+
+            /*Home ............*/
+            #section01 {
+                right: 0;
+                left: 0;
+                position: relative;
+                width: 100vw;
+                height: 91vh;
+            }
+
+            body > section:nth-child(2) > section:nth-child(1) {
+                width: 60vw;
+            }
+
+            body > section:nth-child(2) > div:nth-child(2) {
+                position: relative;
+                right: 31vw;
+            }
+
+            body > section:nth-child(2) > div:nth-child(2) > img {
+                right: 17vw;
+                top: 15vw;
+                position: relative;
+                width: 67vw;
+            }
+
+            body > section:nth-child(2) > section:nth-child(1) > h1 {
+                width: 72vw;
+                font-size: 5vw;
+                justify-content: left;
+                margin-left: 10vw;
+                margin-top: 93vw;
+            }
+
+            body > section:nth-child(2) > section:nth-child(1) > h2:nth-child(2) {
+                margin-left: 10vw;
+                margin-top: 3vw;
+            }
+
+            body > section:nth-child(2) > section:nth-child(1) > div:nth-child(3) {
+                margin-left: 10vw;
+                margin-top: 3vw;
+                flex-direction: row;
+            }
+
+            body > section:nth-child(2) > section:nth-child(1) > img:nth-child(4) {
+                display: none;
+            }
+
+            /*About................*/
+            #whoHeader {
+                left: 20vw;
+                bottom: 93vw;
+                position: relative;
+                width: 34vw;
+            }
+
+            #whoIam {
+                margin-left: 15vw;
+                margin-top: 21vw;
+                width: 66vw;
+            }
+
+            body > section:nth-child(3) > section:nth-child(1) {
+                display: block;
+                margin-top: 5vw;
+                width: 40vw;
+            }
+
+            body > section:nth-child(3) > img:nth-child(1) {
+                left: 14vw;
+                position: relative;
+                width: 57vw;
+            }
+
+            body > section:nth-child(3) > section:nth-child(2) {
+                top: 40vw;
+                position: relative;
+                width: 100vw;
+                right: 53vw;
+            }
+
+            body > section:nth-child(3) > section:nth-child(2) > pre:nth-child(1) {
+                font-size: 3vw;
+                top: 52vw;
+                left: 6vw;
+                position: relative;
+                font-family: Roboto Serif
+            }
+
+            #section02 {
+                right: 0;
+                left: 0;
+                position: relative;
+                width: 100vw;
+                height: 121vh;
+            }
+
+            #cv {
+                margin-left: 20vw;
+                margin-top: 50vw;
+                width: 33vw;
+            }
+
+            /*Education.....*/
+            #section03 {
+                height: 138vh;
+                flex-direction: column;
+                display: flex;
+            }
+
+            .box {
+                display: flex;
+                flex-wrap: wrap;
+                align-content: flex-start;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            body > section:nth-child(4) > img:nth-child(2) {
+                width: 40vw;
+                position: relative;
+                top: 10vw;
+                left: 20vw;
+            }
+
+
+            #div01 {
+                width: 98vw;
+            }
+
+            #div02 {
+                width: 95vw;
+                justify-content: center;
+                margin-top: 0px;
+            }
+
+            #div03 {
+                top: 0vw;
+                position: relative;
+                right: 11vw;
+                width: 88vw;
+                justify-content: start;
+            }
+
+            body > section:nth-child(4) > img:nth-child(6) {
+                width: 10vw;
+                position: relative;
+                bottom: 8vw;
+                left: 90vw;
+            }
+
+            /*Skills...*/
+            #section4 {
+                position: relative;
+                width: 100vw;
+                height: 72vh;
+            }
+
+            #mySkill {
+                position: relative;
+                left: 0vw;
+            }
+
+            body > section:nth-child(5) > section:nth-child(2) {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin-top: 12vw;
+                flex-wrap: wrap;
+            }
+
+            #section05 {
+                position: relative;
+                right: 0;
+                left: 0;
+                width: 100vw;
+                margin: auto;
+                height: 50vh;
+            }
+
+            #section05 > div > img {
+                height: 30vw;
+                filter: grayscale(80%);
+                transition: 0.5s;
+            }
+
+            #section06 {
+                position: relative;
+                left: 0;
+                right: 0;
+                width: 100vw;
+                height: 200vh;
+            }
+
+            body > section:nth-child(7) > section:nth-child(2) > div > img {
+                height: 63vh;
+            }
+
+            body > section:nth-child(7) > section:nth-child(2) {
+                margin-top: 5vw;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            body > section:nth-child(7) > img:nth-child(1) {
+                width: 75vw;
+                top: 5vw;
+                position: relative;
+                left: 0vw;
+            }
+
+            #section07 {
+                position: relative;
+                left: 0;
+                right: 0;
+                height: 122vh;
+                width: 100vw;
+                display: flex;
+            }
+
+            #btnSubmit {
+                position: relative;
+                left: 3vw;
+                width: 47vw;
+                height: 10vh;
+                border-radius: 20px;
+                background-color: #0C1154;
+                color: #aacccc;
+                font-weight: bolder;
+            }
+        }
+        @media all and (min-width: 581px) and (max-width: 768px){
+            footer {
+                display: none;
+            }
+
+            header {
+                background-color: snow;
+                height: 50px;
+
+                top: 0;
+                width: 100vw;
+                position: fixed;
+                z-index: 3;
+            }
+
+            header > img {
+                width: 10%;
+                margin: 7px;
+                transition-duration: 2s;
+                transition-property: all;
+            }
+
+            header > nav > ul > li > a {
+                width: 2vw;
+            }
+
+            header > nav > ul > li > a:hover {
+                width: 3vw;
+                filter: drop-shadow(0 0 1vw black);
+            }
+
+            header > nav > ul > li {
+                display: inline;
+                margin-right: 20px;
+            }
+
+            header > nav > ul > li > a {
+                width: 2vw;
+                text-decoration: none;
+                color: #0C1154;
+            }
+
+            header > nav > ul {
+                position: absolute;
+                top: 5px;
+                right: 25px
+            }
+
+            /*Home ............*/
+            #section01 {
+                right: 0;
+                left: 0;
+                position: relative;
+                width: 100vw;
+                height: 110vh;
+            }
+
+            body > section:nth-child(2) > section:nth-child(1) {
+                width: 60vw;
+            }
+
+            body > section:nth-child(2) > div:nth-child(2) {
+                position: relative;
+                right: 31vw;
+            }
+
+            body > section:nth-child(2) > div:nth-child(2) > img {
+                right: 17vw;
+                top: 15vw;
+                position: relative;
+                width: 67vw;
+            }
+
+            body > section:nth-child(2) > section:nth-child(1) > h1 {
+                width: 72vw;
+                font-size: 5vw;
+                justify-content: left;
+                margin-left: 10vw;
+                margin-top: 93vw;
+            }
+
+            body > section:nth-child(2) > section:nth-child(1) > h2:nth-child(2) {
+                margin-left: 10vw;
+                margin-top: 3vw;
+            }
+
+            body > section:nth-child(2) > section:nth-child(1) > div:nth-child(3) {
+                margin-left: 10vw;
+                margin-top: 3vw;
+                flex-direction: row;
+            }
+
+            body > section:nth-child(2) > section:nth-child(1) > img:nth-child(4) {
+                display: none;
+            }
+
+            /*About................*/
+            #whoHeader {
+                left: 20vw;
+                bottom: 93vw;
+                position: relative;
+                width: 34vw;
+            }
+
+            #whoIam {
+                margin-left: 15vw;
+                margin-top: 21vw;
+                width: 66vw;
+            }
+
+            body > section:nth-child(3) > section:nth-child(1) {
+                display: block;
+                margin-top: 5vw;
+                width: 40vw;
+            }
+
+            body > section:nth-child(3) > img:nth-child(1) {
+                left: 14vw;
+                position: relative;
+                width: 57vw;
+            }
+
+            body > section:nth-child(3) > section:nth-child(2) {
+                top: 40vw;
+                position: relative;
+                width: 100vw;
+                right: 53vw;
+            }
+
+            body > section:nth-child(3) > section:nth-child(2) > pre:nth-child(1) {
+                font-size: 3vw;
+                top: 52vw;
+                left: 6vw;
+                position: relative;
+                font-family: Roboto Serif
+            }
+
+            #section02 {
+                right: 0;
+                left: 0;
+                position: relative;
+                width: 100vw;
+                height: 167vh;
+            }
+
+            #cv {
+                margin-left: 20vw;
+                margin-top: 50vw;
+                width: 33vw;
+            }
+
+            /*Education.....*/
+            #section03 {
+                height: 138vh;
+                flex-direction: column;
+                display: flex;
+            }
+
+            .box {
+                display: flex;
+                flex-wrap: wrap;
+                align-content: flex-start;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            body > section:nth-child(4) > img:nth-child(2) {
+                width: 40vw;
+                position: relative;
+                top: 10vw;
+                left: 20vw;
+            }
+
+
+            #div01 {
+                margin-left: 6vw;
+                margin-top: 10vw;
+                width: 91vw;
+            }
+
+            #div02 {
+                margin-left: 5vw;
+                width: 72vw;
+                margin-top: 7px;
+            }
+
+            #div03 {
+                top: 0vw;
+                position: relative;
+                right: 6vw;
+                width: 90vw;
+            }
+            #rec02{
+                width: 76vw;
+            }
+            #rec03{
+                width: 76vw;
+            }
+            body > section:nth-child(4) > img:nth-child(6) {
+                width: 10vw;
+                position: relative;
+                bottom: 8vw;
+                left: 90vw;
+            }
+
+            /*Skills...*/
+            #section4 {
+                position: relative;
+                width: 100vw;
+                height: 72vh;
+            }
+
+            #mySkill {
+                position: relative;
+                left: 0vw;
+            }
+
+            body > section:nth-child(5) > section:nth-child(2) {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin-top: 12vw;
+                flex-wrap: wrap;
+            }
+
+            #section05 {
+                position: relative;
+                right: 0;
+                left: 0;
+                width: 100vw;
+                margin: auto;
+                height: 71vh;
+            }
+
+            #section05 > div > img {
+                height: 30vw;
+                filter: grayscale(80%);
+                transition: 0.5s;
+            }
+
+            #section06 {
+                position: relative;
+                left: 0;
+                right: 0;
+                width: 100vw;
+                height: 206vh;
+            }
+
+            body > section:nth-child(7) > section:nth-child(2) > div > img {
+                height: 63vh;
+            }
+
+            body > section:nth-child(7) > section:nth-child(2) {
+                margin-top: 5vw;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            body > section:nth-child(7) > img:nth-child(1) {
+                width: 75vw;
+                top: 5vw;
+                position: relative;
+                left: 0vw;
+            }
+
+            #section07 {
+                position: relative;
+                left: 0;
+                right: 0;
+                height: 122vh;
+                width: 100vw;
+                display: flex;
+            }
+
             #btnSubmit {
                 position: relative;
                 left: 3vw;
@@ -1326,13 +1476,13 @@
 
 </section>
 
-<section id="section03">
+<section class="x" id="section03">
     <img id="education" src="assets/images/Vector3.png">
     <img src="assets/images/educationText.png">
 
     <div id="div01" class="box">
         <img src="assets/images/IJSElogo.png">
-        <div class="rectangle">
+        <div id="rec01" class="rectangle">
             <hgroup>
                 <h2>Graduate Diploma in Software Engineering</h2>
                 <h4>Institute of Software Engineering
@@ -1342,7 +1492,7 @@
     </div>
     <div id="div02" class="box">
         <img src="assets/images/CFTLlogo.png">
-        <div class="rectangle">
+        <div id="rec02" class="rectangle">
             <hgroup>
                 <h2>G.C.E Ordinary Level Examination</h2>
                 <h4>Minco  Collage Colombo 2019 - 2021</h4>
@@ -1351,7 +1501,7 @@
     </div>
     <div id="div03" class="box">
         <img src="assets/images/Ellipse%206.png">
-        <div class="rectangle">
+        <div id="rec03" class="rectangle">
             <hgroup>
                 <h2>Primary School </h2>
                 <h4>Sirisumana  Primary School, Rathgama
@@ -1362,7 +1512,7 @@
     <img src="assets/images/Vector4.png">
 </section>
 
-<section id="section4">
+<section class="x" id="section4">
     <img id="mySkill" src="assets/images/mySkillText.png">
 
     <section>
@@ -1428,7 +1578,7 @@
     </section>
 </section>
 
-<section id="section05">
+<section class="x" id="section05">
     <img id="gallery" src="assets/images/gallery.png">
     <div>
         <img src="assets/images/poto1.png">
@@ -1449,7 +1599,7 @@
 
 </section>
 
-<section id="section06">
+<section class="x" id="section06">
     <img id="myProjects" src="assets/images/meetMy_Project.png">
     <section>
         <div>
@@ -1466,7 +1616,7 @@
     </section>
 </section>
 <div id="contact"></div>
-<section id="section07">
+<section class="x" id="section07">
     <section>
         <h2>Quick Support</h2>
         <div><img src="assets/images/call.png">
